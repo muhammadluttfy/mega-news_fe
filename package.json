@@ -1,5 +1,6 @@
 {
-  "name": "nuxt-app",
+  "name": "mega-news",
+  "version": "0.0.1",
   "private": true,
   "type": "module",
   "scripts": {
@@ -10,7 +11,16 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/image": "^1.8.1",
+    "@nuxt/ui": "^2.18.7",
+    "@nuxtjs/device": "^3.2.4",
+    "@nuxtjs/eslint-config-typescript": "^12.1.0",
+    "@nuxtjs/eslint-module": "^4.1.0",
+    "@nuxtjs/google-fonts": "^3.2.0",
+    "dayjs-nuxt": "^2.1.11",
+    "eslint": "^8.57.1",
     "nuxt": "^3.13.2",
+    "nuxt-swiper": "^1.2.2",
     "vue": "latest",
     "vue-router": "latest"
   }
