@@ -34,7 +34,7 @@ const dayjs = useDayjs()
             {{ props?.item?.author }}
           </h4>
           <p class="text-gray-500 text-xs">
-            {{ dayjs(item?.publishedAt).format('MMM DD, YYYY') }}
+            {{ dayjs(item?.publishedAt).format('DD, MM YYYY HH:mm') }}
           </p>
         </div>
       </div>
